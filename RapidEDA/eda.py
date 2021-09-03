@@ -77,8 +77,7 @@ class eda:
         print(colored("\nCorrelation of Dataset:", "red", attrs=["bold"]))
         print(self.df.corr())
         print(colored("\nCorrelation Heatmap Plot:\n", "red", attrs=["bold"]))
-        sns.heatmap(df.corr(), annot=True, linewidth=3)
-        plt.show()
+        
 
 
 class eda_report:
