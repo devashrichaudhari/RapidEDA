@@ -76,10 +76,8 @@ class eda:
         """This method is to find the pairwise correlation of all columns in the dataframe. """
         print(colored("\nCorrelation of Dataset:", "red", attrs=["bold"]))
         print(self.df.corr())
-        print(colored("\nCorrelation Heatmap Plot:\n", "red", attrs=["bold"]))
         
-
-
+        
 class eda_report:
     '''This class generates EDA report'''
     def __init__(self, df):
