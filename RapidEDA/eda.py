@@ -96,10 +96,10 @@ class eda_report:
 
 
 # Example code
-if __name__ == "__main__":
-    df = sns.load_dataset('tips')
-    report = eda_report(df)
-    print(report)
+# if __name__ == "__main__":
+#     df = sns.load_dataset('tips')
+#     report = eda_report(df)
+#     print(report)
 
 
 
