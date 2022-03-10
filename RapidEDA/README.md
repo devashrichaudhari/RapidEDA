@@ -24,3 +24,6 @@ report = eda_report(df)
 ## License
 
 MIT
+
+## PYPI Link:
+https://pypi.org/project/RapidEDA/
